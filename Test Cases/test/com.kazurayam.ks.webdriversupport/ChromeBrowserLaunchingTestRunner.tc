@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>KSWebDriverFactoryTestRunner</name>
+   <name>ChromeBrowserLaunchingTestRunner</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>33169fe0-8fc5-490d-b86c-f3955947dfdd</testCaseGuid>
+   <testCaseGuid>a3f51d08-3a64-4b81-9423-b4ed7d86a2bc</testCaseGuid>
 </TestCaseEntity>

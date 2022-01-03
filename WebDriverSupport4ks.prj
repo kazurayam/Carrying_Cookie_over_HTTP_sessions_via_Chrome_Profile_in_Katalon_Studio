@@ -6,6 +6,7 @@
    <UUID>9df63cc1-66eb-404c-a7e8-9f84b98bbf58</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>/Users/kazuakiurayama/katalon-workspace/WebDriverSupport4ks/WebDriverSupport4ks.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

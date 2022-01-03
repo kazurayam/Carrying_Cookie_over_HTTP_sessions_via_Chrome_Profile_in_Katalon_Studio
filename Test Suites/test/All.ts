@@ -12,22 +12,28 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>f0e72c0b-11e3-497b-9246-29b5bcfb3dc7</testSuiteGuid>
    <testCaseLink>
+      <guid>69ef7066-a576-489f-9b47-d987990d7321</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/test/com.kazurayam.ks.webdriversupport/ApplicationInfoTestRunner</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0d5437f3-fc64-4386-94a0-31a030a1e8ff</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/test/com.kazurayam.ks.webdriversupport/ChromeBrowserLaunchingTestRunner</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
       <guid>4e70aeef-f41a-4601-882c-98a3da7fd818</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/test/com.kazurayam.ks.webdriversupport/KSDriverTypeNameTestRunner</testCaseId>
+      <testCaseId>Test Cases/test/com.kazurayam.ks.webdriversupport/DriverTypeNameTestRunner</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>e3c8c53e-c0d1-46df-b6d4-115a045bc5f2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/test/com.kazurayam.ks.webdriversupport/KSWebDriverFactoryTestRunner</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>69ef7066-a576-489f-9b47-d987990d7321</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/test/com.kazurayam.ks.webdriversupport/ApplicationInfoTestRunner</testCaseId>
+      <testCaseId>Test Cases/test/com.kazurayam.ks.webdriversupport/WebDriverPathsTestRunner</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>260d7c87-2c6a-4bfa-8a21-12d456c03ac9</guid>

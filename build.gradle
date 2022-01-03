@@ -5,7 +5,7 @@ plugins {
 }
 
 group = 'com.kazurayam'
-version = '0.4.0-SNAPSHOT'
+version = '0.4.1-SNAPSHOT'
 
 def defaultEncoding = 'UTF-8'
 tasks.withType(AbstractCompile).each {it.options.encoding = defaultEncoding }
@@ -13,7 +13,7 @@ tasks.withType(GroovyCompile).each {it.groovyOptions.encoding = defaultEncoding}
 
 ext {
     AUTO_IMPORTED_JAR_PREFIX = 'AUTOIMPORTED_'
-    webdriverfactoryVersion = '0.1.1-SNAPSHOT'
+    webdriverfactoryVersion = '0.2.1-SNAPSHOT'
     groovyVersion = '2.4.20'
     junit4ksVersion = '1.6.1'
     isReleaseVersion = ! version.endsWith("SNAPSHOT")
