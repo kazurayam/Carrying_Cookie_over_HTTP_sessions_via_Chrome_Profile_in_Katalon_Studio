@@ -42,7 +42,7 @@ public class ChromeBrowserLaunchingTest {
 		}
 	}
 
-	
+
 	@Test
 	public void test_launch_Chrome() {
 		ChromeDriverFactory factory = ChromeDriverFactory.newChromeDriverFactory()
@@ -52,7 +52,7 @@ public class ChromeBrowserLaunchingTest {
 		WebUI.navigateToUrl(url)
 	}
 
-	
+
 	@Test
 	public void test_launch_HeadlessChrome() {
 		ChromeDriverFactory factory = ChromeDriverFactory.newHeadlessChromeDriverFactory()
@@ -62,7 +62,7 @@ public class ChromeBrowserLaunchingTest {
 		WebUI.navigateToUrl(url)
 	}
 
-	
+
 	@Test
 	public void test_launch_Chrome_with_profile() {
 		ChromeDriverFactory factory = ChromeDriverFactory.newChromeDriverFactory()
@@ -71,8 +71,8 @@ public class ChromeBrowserLaunchingTest {
 		DriverFactory.changeWebDriver(driver)
 		WebUI.navigateToUrl(url)
 	}
-	
-	
+
+
 	@Test
 	public void test_launch_HeadlessChrome_with_profile() {
 		ChromeDriverFactory factory = ChromeDriverFactory.newHeadlessChromeDriverFactory()
@@ -81,8 +81,8 @@ public class ChromeBrowserLaunchingTest {
 		DriverFactory.changeWebDriver(driver)
 		WebUI.navigateToUrl(url)
 	}
-	
-	
+
+
 	@Test
 	public void test_launch_Chrome_with_profileDirectory() {
 		ChromeDriverFactory factory = ChromeDriverFactory.newChromeDriverFactory()
@@ -91,8 +91,8 @@ public class ChromeBrowserLaunchingTest {
 		DriverFactory.changeWebDriver(driver)
 		WebUI.navigateToUrl(url)
 	}
-	
-	
+
+
 	@Test
 	public void test_launch_HeadlessChrome_with_profileDirectory() {
 		ChromeDriverFactory factory = ChromeDriverFactory.newHeadlessChromeDriverFactory()
@@ -101,7 +101,7 @@ public class ChromeBrowserLaunchingTest {
 		DriverFactory.changeWebDriver(driver)
 		WebUI.navigateToUrl(url)
 	}
-	
+
 	@Ignore
 	@Test
 	public void test_launch_HeadlessChrome_with_profile_FOR_HERE() {
@@ -112,7 +112,7 @@ public class ChromeBrowserLaunchingTest {
 		WebUI.navigateToUrl(url)
 		WebUI.delay(1)
 	}
-	
+
 	@Test
 	public void test_launch_Chrome_with_ChromeOptions() {
 		ChromeDriverFactory factory = ChromeDriverFactory.newChromeDriverFactory()
