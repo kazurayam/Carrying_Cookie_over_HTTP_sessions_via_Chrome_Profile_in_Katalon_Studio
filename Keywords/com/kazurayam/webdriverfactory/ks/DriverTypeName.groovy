@@ -1,4 +1,4 @@
-package com.kazurayam.ks.webdriversupport
+package com.kazurayam.webdriverfactory.ks
 
 import com.kms.katalon.core.driver.DriverType
 

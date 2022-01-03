@@ -1,4 +1,4 @@
-package com.kazurayam.ks.webdriversupport
+package com.kazurayam.webdriverfactory.ks
 
 import java.nio.file.Path
 import java.nio.file.Paths

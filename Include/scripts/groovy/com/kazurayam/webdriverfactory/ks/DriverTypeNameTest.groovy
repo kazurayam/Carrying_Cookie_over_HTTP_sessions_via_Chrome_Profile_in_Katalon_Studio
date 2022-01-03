@@ -1,4 +1,4 @@
-package com.kazurayam.ks.webdriversupport
+package com.kazurayam.webdriverfactory.ks
 
 import static org.hamcrest.CoreMatchers.*
 import static org.junit.Assert.*
@@ -10,7 +10,7 @@ import org.junit.runners.JUnit4
 import org.openqa.selenium.WebDriver
 
 import com.kms.katalon.core.driver.DriverType
-import com.kazurayam.ks.webdriversupport.DriverTypeName
+import com.kazurayam.webdriverfactory.ks.DriverTypeName
 
 @RunWith(JUnit4.class)
 public class KSDriverTypeNameTest {

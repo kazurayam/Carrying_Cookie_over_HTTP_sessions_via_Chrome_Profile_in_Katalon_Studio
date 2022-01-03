@@ -1,4 +1,4 @@
-package com.kazurayam.ks.webdriversupport
+package com.kazurayam.webdriverfactory.ks
 
 import static org.junit.Assert.*
 

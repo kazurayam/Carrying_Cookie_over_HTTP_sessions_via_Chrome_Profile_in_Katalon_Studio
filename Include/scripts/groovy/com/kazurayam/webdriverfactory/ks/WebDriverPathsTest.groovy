@@ -1,4 +1,4 @@
-package com.kazurayam.ks.webdriversupport
+package com.kazurayam.webdriverfactory.ks
 
 import static org.junit.Assert.*
 
@@ -35,11 +35,10 @@ public class LaunchingChromeTest {
 	@Test
 	public void test_Chrome_specifying_path_to_executable() {
 		ChromeDriverFactory.setPathToChromeDriverExecutable(DriverFactory.getChromeDriverPath())
-		ChromeDriverFactory factory = ChromeDriverFactory.newInstance()
+		ChromeDriverFactory factory = ChromeDriverFactory.newChromeDriverFactory()
 		driver = factory.newChromeDriver()
 		assertNotNull(driver)
 		DriverFactory.changeWebDriver(driver)
 		WebUI.navigateToUrl(url)
 	}
-
 }
