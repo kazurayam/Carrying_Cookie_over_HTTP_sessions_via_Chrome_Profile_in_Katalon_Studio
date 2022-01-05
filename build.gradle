@@ -13,7 +13,7 @@ tasks.withType(GroovyCompile).each {it.groovyOptions.encoding = defaultEncoding}
 
 ext {
     AUTO_IMPORTED_JAR_PREFIX = 'AUTOIMPORTED_'
-    webdriverfactoryVersion = '0.2.1-SNAPSHOT'
+    webdriverfactoryVersion = '0.2.2-SNAPSHOT'
     groovyVersion = '2.4.20'
     junit4ksVersion = '1.6.1'
     isReleaseVersion = ! version.endsWith("SNAPSHOT")
