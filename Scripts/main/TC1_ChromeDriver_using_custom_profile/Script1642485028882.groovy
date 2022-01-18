@@ -1,5 +1,4 @@
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
-import static org.junit.Assert.*
 
 import org.openqa.selenium.Cookie
 import org.openqa.selenium.chrome.ChromeDriver
@@ -11,12 +10,9 @@ import com.kazurayam.webdriverfactory.chrome.LaunchedChromeDriver
 import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-
-
-// 
+ 
 /**
- * project name : Carrying_Cookie_over_HTTP_Sessions_via_Chrome_Profile_in_Katalon_Studio
- * testcase name: main/TC1_using_ChromeDriverFactory
+ * testcase name: main/TC1_ChromeDriver_using_custom_profile
  * 
  * This code will open Chrome browser and navigate to the URL "http://127.0.0.1" twice.
  * The http server will send a cookie named "timestamp" with value of
@@ -50,13 +46,17 @@ LaunchedChromeDriver launched
 // 1st session
 launched = factory.newChromeDriver(new UserProfile("Picasso"),
 					ChromeDriverFactory.UserDataAccess.FOR_HERE)
+
 Cookie timestamp1 = WebUI.callTestCase(findTestCase("main/observeCookie"), ["launched": launched])
 ChromeDriver chromeDriver1 = launched.getDriver()
-chromeDriver1.quit()   // by .quit(), the browser will save the cookies in to the profile directory
+chromeDriver1.quit()   
+// by .quit(), the browser will save the cookies into the genuin profile directory of the "Picasso" profile,
+// which will be kept and carried over to the following HTTP sessions
 
 // 2nd session
 launched = factory.newChromeDriver(new UserProfile("Picasso"),
 					ChromeDriverFactory.UserDataAccess.TO_GO)
+
 Cookie timestamp2 = WebUI.callTestCase(findTestCase("main/observeCookie"), ["launched": launched])
 ChromeDriver chromeDriver2 = launched.getDriver()
 chromeDriver2.quit()
@@ -65,6 +65,6 @@ chromeDriver2.quit()
 println "timestamp1 => " + CookieUtils.stringifyCookie(timestamp1)
 println "timestamp2 => " + CookieUtils.stringifyCookie(timestamp2)
 
-assertEquals(timestamp1.getValue(), timestamp2.getValue())
-assertNotEquals(timestamp1.getExpiry(), timestamp2.getExpiry())
+assert timestamp1.getValue() == timestamp2.getValue()
+assert timestamp1.getExpiry() != timestamp2.getExpiry()
 	

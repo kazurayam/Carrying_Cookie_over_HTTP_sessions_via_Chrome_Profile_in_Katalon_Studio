@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC2_using_WebUI.openBrowser</name>
+   <name>TC1_ChromeDriver_using_custom_profile</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>3d80e4e7-0757-47a6-9a0b-5c7c142e1a8e</testCaseGuid>
+   <testCaseGuid>fc4f2dbc-b179-40a0-9474-e05a1de81368</testCaseGuid>
 </TestCaseEntity>
