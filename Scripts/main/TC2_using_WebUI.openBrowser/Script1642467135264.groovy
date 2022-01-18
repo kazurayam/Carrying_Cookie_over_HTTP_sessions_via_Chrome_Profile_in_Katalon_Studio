@@ -15,27 +15,5 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys
-import org.openqa.selenium.WebDriver
+import org.openqa.selenium.Keys as Keys
 
-import com.kms.katalon.core.webui.driver.DriverFactory
-import org.openqa.selenium.WebDriver
-import org.openqa.selenium.chrome.ChromeDriver
-import org.openqa.selenium.Capabilities
-import com.google.gson.Gson
-import com.google.gson.GsonBuilder
-
-WebUI.openBrowser('')
-
-WebDriver driver = DriverFactory.getWebDriver()
-
-Capabilities capabilities = driver.getCapabilities()
-
-Gson gson = new GsonBuilder()
-                .setPrettyPrinting()
-                .create()
-StringWriter sw = new StringWriter()
-gson.toJson(capabilities, sw)
-println "capabilities:\n" +  sw.toString()
-
-WebUI.closeBrowser()

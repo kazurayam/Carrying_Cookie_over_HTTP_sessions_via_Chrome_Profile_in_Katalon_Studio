@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>observeCookie</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>49ce683d-4c12-4d21-b608-36cddc1d9f2f</testCaseGuid>
+   <variable>
+      <defaultValue>null</defaultValue>
+      <description></description>
+      <id>3bebf2a1-3549-4de4-9df4-6a171e69272d</id>
+      <masked>false</masked>
+      <name>launched</name>
+   </variable>
+   <variable>
+      <defaultValue>'timestamp'</defaultValue>
+      <description></description>
+      <id>a53d3e7d-6b22-471c-833e-5a3402d30c32</id>
+      <masked>false</masked>
+      <name>cookieName</name>
+   </variable>
+</TestCaseEntity>

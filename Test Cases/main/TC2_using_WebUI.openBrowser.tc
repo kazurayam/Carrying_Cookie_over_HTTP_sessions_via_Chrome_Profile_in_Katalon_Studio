@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>ChromeBrowserLaunchingTestRunner</name>
+   <name>TC2_using_WebUI.openBrowser</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>a3f51d08-3a64-4b81-9423-b4ed7d86a2bc</testCaseGuid>
+   <testCaseGuid>3d80e4e7-0757-47a6-9a0b-5c7c142e1a8e</testCaseGuid>
 </TestCaseEntity>

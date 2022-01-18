@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
    <description></description>
-   <name>WebDriverSupport4ks</name>
+   <name>Carrying_Cookie_over_HTTP_sessions_via_Chrome_Profile_in_Katalon_Studio</name>
    <tag></tag>
    <UUID>9df63cc1-66eb-404c-a7e8-9f84b98bbf58</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>/Users/kazuakiurayama/katalon-workspace/WebDriverSupport4ks/WebDriverSupport4ks.prj</projectFileLocation>
+   <projectFileLocation>/Users/kazuakiurayama/katalon-workspace/Carrying_Cookie_over_HTTP_sessions_via_Chrome_Profile_in_Katalon_Studio/WebDriverSupport4ks.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

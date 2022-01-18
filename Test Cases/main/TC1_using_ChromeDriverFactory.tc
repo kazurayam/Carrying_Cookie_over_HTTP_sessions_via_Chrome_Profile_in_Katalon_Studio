@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>WebDriverPathsTestRunner</name>
+   <name>TC1_using_ChromeDriverFactory</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>33169fe0-8fc5-490d-b86c-f3955947dfdd</testCaseGuid>
+   <testCaseGuid>fc4f2dbc-b179-40a0-9474-e05a1de81368</testCaseGuid>
 </TestCaseEntity>
